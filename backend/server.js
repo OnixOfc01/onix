@@ -9,7 +9,10 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
+// Configuración de la conexión a MongoDB Atlas
+
 const uri = "mongodb+srv://onix1751:onix1751@onix-proyect.5fgmndn.mongodb.net/onixdb?retryWrites=true&w=majority&appName=onix-proyect";
+
 
 const client = new MongoClient(uri, {
   serverApi: {
