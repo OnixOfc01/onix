@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Configuración de la conexión a MongoDB Atlas
 
-const uri = "mongodb+srv://onix1751:onix1751@onix-proyect.5fgmndn.mongodb.net/onixdb?retryWrites=true&w=majority&appName=onix-proyect";
+const uri = "mongodb+srv://onixofcenter:onix1751@onix-proyect.5fgmndn.mongodb.net/onixdb?retryWrites=true&w=majority&appName=onix-proyect";
 
 
 const client = new MongoClient(uri, {
